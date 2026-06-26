@@ -332,7 +332,7 @@ export default function LandingPage() {
         {!showLogin ? (
           <>
             <span className="landing-heart">💝</span>
-            <h1 className="landing-title">GitaGift</h1>
+            <h1 className="landing-title">KeysaaGift</h1>
             <p className="landing-message">{MASSAGES[messageIdx]}</p>
             <button className="landing-btn" onClick={() => setShowLogin(true)}>
               Buka Hadiah 🎁
