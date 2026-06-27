@@ -57,8 +57,7 @@ export default function MenuPage() {
           // router.push("/menu/calc");
           break;
         case "gallery":
-          window.alert("Fitur ini belum beres ya cantik");
-          // router.push("/menu/gallery");
+          router.push("/menu/gallery");
           break;
         case "games":
           router.push("/menu/games");
@@ -402,7 +401,7 @@ export default function MenuPage() {
             <div className="card" onClick={(e) => navigateTo("gallery", e)}>
               <span className="card-icon">🖼️</span>
               <div className="card-title">Gallery</div>
-              <div className="card-desc">Koleksi foto-foto kita</div>
+              <div className="card-desc">Koleksi foto</div>
             </div>
             <div className="card" onClick={(e) => navigateTo("games", e)}>
               <span className="card-icon">🎮</span>

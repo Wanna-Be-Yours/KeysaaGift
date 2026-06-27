@@ -403,7 +403,7 @@ export default function ProfilePage() {
               </div>
               <div className="detail-content">
                 <div className="detail-label">Umur</div>
-                <div className="detail-value">17/16 Tahun</div>
+                <div className="detail-value">17 Tahun</div>
               </div>
             </div>
 
@@ -413,7 +413,7 @@ export default function ProfilePage() {
               </div>
               <div className="detail-content">
                 <div className="detail-label">Tanggal Lahir</div>
-                <div className="detail-value">28 Oktober 2008/9?</div>
+                <div className="detail-value">28 Oktober 2008</div>
               </div>
             </div>
 
