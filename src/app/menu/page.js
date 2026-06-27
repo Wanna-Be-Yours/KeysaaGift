@@ -44,8 +44,7 @@ export default function MenuPage() {
           router.push("/menu/music");
           break;
         case "album":
-          window.alert("Fitur ini belum beres ya cantik");
-          // router.push("/menu/album");
+          router.push("/menu/album");
           break;
         case "flowers":
           router.push("/menu/flower");

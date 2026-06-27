@@ -959,7 +959,7 @@ export default function AlbumPage() {
                   </div>
                   <div className="letter-container">
                     <div className="letter-paper">
-                      <p className="letter-salutation">Dear Gita,</p>
+                      <p className="letter-salutation">Dear Keysaa,</p>
                       <p className="letter-body">
                         Teruntuk pemilik mata indah yang diam-diam mampu membuat dunia terasa lebih tenang, entah sejak kapan aku mulai jatuh pada cara matamu memandang semesta. Ada sesuatu di sana—sesuatu yang sulit dijelaskan oleh kata-kata biasa. Seolah setiap tatapanmu menyimpan rumah bagi hati-hati yang lelah, tempat seseorang bisa tinggal sejenak tanpa merasa dihakimi oleh dunia.
                         <br /><br />
@@ -969,9 +969,9 @@ export default function AlbumPage() {
                         <br /><br />
                         Dan jika suatu hari nanti kamu bertanya kenapa semua ini tercipta, maka jawabannya sederhana: karena ada beberapa manusia yang kehadirannya terlalu berarti untuk dijelaskan dengan satu kalimat saja. Mereka harus diabadikan lewat lagu, lewat puisi, lewat hal-hal kecil yang terus hidup bahkan ketika waktu mulai berjalan terlalu jauh.
                         <br /><br />
-                        maaff yaa kaloo album nya belumm rapihhh, nantii akuu rapihinn lagiii sayanggg
+                        maaff yaa kaloo album nya belumm rapihhh, nantii akuu rapihinn lagii
                       </p>
-                      <div className="wax-seal" title="Seal with love">G</div>
+                      <div className="wax-seal" title="Seal with love">K</div>
                     </div>
                   </div>
                 </div>
@@ -995,7 +995,7 @@ export default function AlbumPage() {
                     <div className="cover-sub" style={{ color: "rgba(255,255,255,0.75)" }}>Made with Love</div>
                     <div className="cover-title" style={{ fontSize: "2rem" }}>For Keysaa</div>
                     <div style={{ width: "40px", height: "1px", background: "rgba(255,215,0,0.3)", margin: "1rem auto" }}></div>
-                    <div className="cover-sub" style={{ fontSize: "0.8rem", letterSpacing: "2px" }}>24.05.2026</div>
+                    <div className="cover-sub" style={{ fontSize: "0.8rem", letterSpacing: "2px" }}>27.06.2026</div>
                   </div>
                 </div>
               </div>
@@ -1009,9 +1009,9 @@ export default function AlbumPage() {
               <span>←</span> Prev
             </button>
             <span className="page-count">
-              {currentSpreadIndex === 0 ? "Cover" : `Buku ${currentSpreadIndex} / 5`}
+              {currentSpreadIndex === 0 ? "Cover" : `Page ${currentSpreadIndex} / 10`}
             </span>
-            <button className="nav-btn" disabled={currentSpreadIndex === 5} onClick={() => changePage(1)}>
+            <button className="nav-btn" disabled={currentSpreadIndex === 10} onClick={() => changePage(1)}>
               Next <span>→</span>
             </button>
           </div>
