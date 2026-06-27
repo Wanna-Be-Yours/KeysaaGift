@@ -195,7 +195,7 @@ export default function MemoryGame() {
 
       {isWon && (
         <div className="win-banner">
-          <h3><span className="star">⭐</span> Keren, Gitaa! <span className="star">⭐</span></h3>
+          <h3><span className="star">⭐</span> Greatt! <span className="star">⭐</span></h3>
           <p>Selesai dalam {moves} langkah & {seconds} detik! 🎉</p>
         </div>
       )}
